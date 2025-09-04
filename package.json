@@ -1,0 +1,30 @@
+{
+  "name": "sistema-de-autentica-o-e-autoriza-o",
+  "version": "1.0.0",
+  "description": "Sistema de Autenticação e autorização de rotas privadas. teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HRC10/Sistema-de-Autentica-o-e-Autoriza-o.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HRC10/Sistema-de-Autentica-o-e-Autoriza-o/issues"
+  },
+  "homepage": "https://github.com/HRC10/Sistema-de-Autentica-o-e-Autoriza-o#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
